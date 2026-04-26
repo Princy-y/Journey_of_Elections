@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Journey of Elections — Experience Indian Democracy</title>
+    <meta name="description" content="Learn India's election process by running for Lok Sabha. Guided by AI campaign manager Star through all 7 phases — from nomination to counting day." />
+    <meta name="keywords" content="Indian elections, Lok Sabha, ECI, election simulation, civic education, FPTP, EVM, MCC" />
+    <meta name="author" content="Journey of Elections" />
+    <meta name="theme-color" content="#FF6B00" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Journey of Elections 🗳️" />
+    <meta property="og:description" content="Run for office. Learn Indian elections. Score 100/100." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/favicon.svg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Journey of Elections 🗳️" />
+    <meta name="twitter:description" content="Run for office. Learn Indian elections. Score 100/100." />
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' http://localhost:3001 https://firestore.googleapis.com https://www.google-analytics.com https://identitytoolkit.googleapis.com ws://localhost:5173; img-src 'self' data:;" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_MEASUREMENT_ID%"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() { dataLayer.push(arguments) }
+      gtag('js', new Date())
+      // Full initialisation handled by src/services/analyticsService.js
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

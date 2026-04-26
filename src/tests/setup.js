@@ -1,0 +1,21 @@
+import '@testing-library/jest-dom';
+import { expect } from 'vitest';
+import * as matchers from '@testing-library/jest-dom/matchers';
+import { toHaveNoViolations } from 'jest-axe';
+
+expect.extend(matchers);
+expect.extend(toHaveNoViolations);
+
+Object.defineProperty(window, 'matchMedia', {
+  writable: true,
+  value: (query) => ({
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: () => {},
+    removeListener: () => {},
+    addEventListener: () => {},
+    removeEventListener: () => {},
+    dispatchEvent: () => {},
+  }),
+});

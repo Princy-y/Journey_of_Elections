@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Journey of Elections ballot box icon">
+  <!-- Ballot box body -->
+  <rect x="8" y="24" width="48" height="34" rx="4" ry="4" fill="#FF6B00"/>
+  <!-- Ballot box lid/top -->
+  <rect x="6" y="18" width="52" height="8" rx="3" ry="3" fill="#E05A00"/>
+  <!-- Ballot slot -->
+  <rect x="22" y="21" width="20" height="3" rx="1.5" ry="1.5" fill="#1a1a1a"/>
+  <!-- Ballot paper going in -->
+  <rect x="27" y="9" width="10" height="16" rx="2" ry="2" fill="white"/>
+  <!-- Tick mark on ballot -->
+  <polyline points="30,16 32,18 36,13" stroke="#138808" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Lines on ballot (text indication) -->
+  <line x1="29" y1="12" x2="37" y2="12" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <!-- Lock symbol on box -->
+  <circle cx="32" cy="42" r="5" fill="#E05A00"/>
+  <rect x="29" y="42" width="6" height="6" rx="1" ry="1" fill="#E05A00"/>
+  <path d="M29,42 Q29,37 32,37 Q35,37 35,42" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- ECI decorative stripe at bottom -->
+  <rect x="8" y="52" width="48" height="4" rx="0" ry="0" fill="#138808"/>
+  <rect x="8" y="52" width="16" height="4" fill="#FF6B00"/>
+  <rect x="40" y="52" width="16" height="4" fill="#FF6B00"/>
+</svg>
