@@ -202,4 +202,4 @@ See [`.env.example`](./.env.example) for all required keys.
 
 ## 📜 License
 
-MIT © 2025 Journey of Elections
+MIT © 2026 Journey of Elections
